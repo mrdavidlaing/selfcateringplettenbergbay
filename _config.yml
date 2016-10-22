@@ -19,8 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/selfcateringplettenbergbay/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/selfcateringplettenbergbay" # the subpath of your site, e.g. /blog/
 
 # User setting
 owner:
@@ -40,3 +39,6 @@ google_api_key: AIzaSyA_3Nat4iOyubMd1vbuWkbKs3K4q-vKcAk
 
 # Build settings
 markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
