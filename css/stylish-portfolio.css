@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.8em;
 }
 
 .text-vertical-center {
@@ -25,8 +26,10 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 4em;
     font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    color: white;
 }
 
 /* Custom Button Styles */
@@ -156,6 +159,20 @@ hr.small {
     width: 100%;
     height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Property header */
+
+.property-header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
